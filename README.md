@@ -1,7 +1,7 @@
 # projeto-mysql-isp
 Modelagem de dados relacional e automação de carga com Stored Procedures no MySQL.
 
-Este repositório contém a arquitetura de banco de dados e rotinas de automação em MySQL desenvolvidas para simular a operação de atendimento e infraestrutura de um Provedor de Internet.
+Este repositório contém a arquitetura de banco de dados e rotinas de automação em MySQL desenvolvidas para simular a operação de atendimento para gestão de chamados.
 
 ## Objetivos do Projeto
 - Estruturar um modelo de dados relacional em estrela (*Star Schema*).
