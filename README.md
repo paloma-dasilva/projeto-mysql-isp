@@ -14,12 +14,12 @@ Este repositório contém a arquitetura de banco de dados e rotinas de automaç�
 - **Automação:** *Stored Procedures*, *Cursors*, *Handlers* de erro e tratamento de variáveis.
 - **Regras de Negócio:** Simulação de horários comerciais, sorteio proporcional por níveis de atendimento e cálculo de janelas de SLA.
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 - `criacao_tabelas.sql`: DDL do schema (chaves primárias, estrangeiras e restrições).
 - `/inserts/`: DML com a carga inicial das tabelas Dimensão (clientes, atendentes, localidades, etc).
 - `/procedures/`: Stored Procedures em MySQL para geração da massa de dados simulada das tabelas Fato.
 - `/views/`: Consultas consolidadas para alimentar o painel analítico.
 
-## 🚧 Status do Projeto
+## Status do Projeto
 Em andamento — Próxima etapa: Consolidação de Views SQL analíticas e criação de Dashboard executivo.
