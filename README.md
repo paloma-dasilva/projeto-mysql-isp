@@ -16,8 +16,8 @@ Este repositório contém a arquitetura de banco de dados e rotinas de automaç�
 
 ## Estrutura do Repositório
 
-- `criacao_tabelas.sql`: DDL do schema (chaves primárias, estrangeiras e restrições).
-- `/inserts/`: DML com a carga inicial das tabelas Dimensão (clientes, atendentes, localidades, etc).
+- `ddl`: DDL do schema (chaves primárias, estrangeiras e restrições).
+- `dml`: DML com a carga inicial das tabelas Dimensão (clientes, atendentes, localidades, etc).
 - `/procedures/`: Stored Procedures em MySQL para geração da massa de dados simulada das tabelas Fato.
 - `/views/`: Consultas consolidadas para alimentar o painel analítico.
 
